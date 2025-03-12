@@ -1,5 +1,8 @@
 # every_day_for_Germany
 Desktop applicaiton for learn Germany
+## New Update
+
+![Image](https://github.com/user-attachments/assets/004f517f-e541-464d-b42f-6ca170b7f5ce)
 
 App Picture 
 
