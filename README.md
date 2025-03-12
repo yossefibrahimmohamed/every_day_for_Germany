@@ -10,6 +10,8 @@ This Version is make a voice of word to learn speaking
 
 i put it function 
 
+```bash
+
 # Function to speak the displayed German word
 
 def speak_word():
@@ -17,6 +19,7 @@ def speak_word():
     if word and word != "Error":
         threading.Thread(target=lambda: (engine.say(word), engine.runAndWait()), daemon=True).start()
 
+```
 install this libraries 
 
 ```bash
