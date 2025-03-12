@@ -1,9 +1,28 @@
 # every_day_for_Germany
+new version
+
 Desktop applicaiton for learn Germany
 ## New Update
 
 ![Image](https://github.com/user-attachments/assets/004f517f-e541-464d-b42f-6ca170b7f5ce)
 
+This Version is make a voice of word to learn speaking
+
+i put it function 
+
+# Function to speak the displayed German word
+
+def speak_word():
+    word = german_label.cget("text")  # Get the displayed word
+    if word and word != "Error":
+        threading.Thread(target=lambda: (engine.say(word), engine.runAndWait()), daemon=True).start()
+
+install this libraries 
+
+```bash
+pip install GoogleTranslator
+pip install pyttsx3
+```
 App Picture 
 
 <img width="1262" alt="Image" src="https://github.com/user-attachments/assets/7af351b1-3994-472e-81db-31de80e93a61" />
